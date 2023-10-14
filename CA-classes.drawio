@@ -1,0 +1,121 @@
+<mxfile host="app.diagrams.net" modified="2023-04-14T08:37:12.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="jjAdL1N6gcDUqa3-Czql" version="21.1.7" type="device">
+  <diagram name="Страница 1" id="x54cKpvEaJCLX6_wGf2F">
+    <mxGraphModel dx="1576" dy="411" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VZLOUmpsjGnlALjeftl7-1" value="Cell&lt;br&gt;" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="30" width="160" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-2" value="+ Free: bool" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VZLOUmpsjGnlALjeftl7-1" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="VZLOUmpsjGnlALjeftl7-1" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-4" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VZLOUmpsjGnlALjeftl7-1" vertex="1">
+          <mxGeometry y="98" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-5" value="MarketUnit" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="240" y="280" width="160" height="208" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-6" value="+ row_pos: int&lt;br&gt;+ col_pos: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VZLOUmpsjGnlALjeftl7-5" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="VZLOUmpsjGnlALjeftl7-5" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="VZLOUmpsjGnlALjeftl7-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="VZLOUmpsjGnlALjeftl7-5" vertex="1">
+          <mxGeometry y="98" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-1" value="Company" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="-35" y="540" width="195" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-2" value="+ budget:&amp;nbsp;&lt;br&gt;+ product_portfolio: list" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MXMyZpyQHj3ka36q19n_-1" vertex="1">
+          <mxGeometry y="26" width="195" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="MXMyZpyQHj3ka36q19n_-1" vertex="1">
+          <mxGeometry y="90" width="195" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-4" value="- produce_product(type): Product&lt;br&gt;- change_product(type):&amp;nbsp;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MXMyZpyQHj3ka36q19n_-1" vertex="1">
+          <mxGeometry y="98" width="195" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-5" value="Product" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="500" y="540" width="160" height="248" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-6" value="+&amp;nbsp;product_profitability:&amp;nbsp;&lt;br&gt;+&amp;nbsp;quality:&lt;br&gt;+&amp;nbsp;eco-friendly:&lt;br&gt;+ price:" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MXMyZpyQHj3ka36q19n_-5" vertex="1">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="MXMyZpyQHj3ka36q19n_-5" vertex="1">
+          <mxGeometry y="130" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MXMyZpyQHj3ka36q19n_-5" vertex="1">
+          <mxGeometry y="138" width="160" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-9" value="Client" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1010" y="540" width="160" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-10" value="+&amp;nbsp;buying_power:&amp;nbsp;&lt;br&gt;+&amp;nbsp;preferences:&amp;nbsp;&lt;br&gt;+ demand:&lt;br&gt;+ addiction: dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MXMyZpyQHj3ka36q19n_-9" vertex="1">
+          <mxGeometry y="26" width="160" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="MXMyZpyQHj3ka36q19n_-9" vertex="1">
+          <mxGeometry y="90" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-12" value="+&amp;nbsp;purchase(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" parent="MXMyZpyQHj3ka36q19n_-9" vertex="1">
+          <mxGeometry y="98" width="160" height="152" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-14" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="MXMyZpyQHj3ka36q19n_-1" target="VZLOUmpsjGnlALjeftl7-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="200" y="470" as="sourcePoint" />
+            <mxPoint x="320" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="45" y="520" />
+              <mxPoint x="320" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-15" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.501;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="MXMyZpyQHj3ka36q19n_-5" target="VZLOUmpsjGnlALjeftl7-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="140" y="550" as="sourcePoint" />
+            <mxPoint x="360" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="580" y="520" />
+              <mxPoint x="320" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-17" value="" style="endArrow=block;endFill=0;endSize=12;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="MXMyZpyQHj3ka36q19n_-9" target="VZLOUmpsjGnlALjeftl7-8" edge="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="480" y="538" as="sourcePoint" />
+            <mxPoint x="320" y="490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1090" y="520" />
+              <mxPoint x="320" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-18" value="Описание объектов:&lt;br&gt;Компания - а-ля мозговой центр улья, занимается порождением и развитием товаров&lt;br&gt;- вопрос: товары изменяется в реальном времени или поколениями&lt;br&gt;Товар передвигается по полю в поисках клиента (как паразит)&lt;br&gt;Клиент пожирает товар, привлекает новых клиентов к находке, отталкиваются друг от друга" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="398" width="540" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-19" value="Компания&lt;br&gt;- Свойства:&lt;br&gt;Ресурс-здоровье (budget):&lt;br&gt;1. тратится на порождение товаров&lt;br&gt;2. тратится на изменение товаров&lt;br&gt;3. восполняется при взаимодействии, порожденных товаров&lt;br&gt;с клиентом&lt;br&gt;4. при достижении критической отметки, компания умирает&lt;br&gt;*5. тратится на изобретение новых товаров&lt;br&gt;*6 тратится на создание филиалов&lt;br&gt;&lt;br&gt;Ассортимент (product_portfolio)&lt;br&gt;# Список выпускаемых товаров&lt;br&gt;&lt;br&gt;- Методы:&lt;br&gt;Выпуск товара (produce_product)&lt;br&gt;# Выпуск на поле нового товара за ресурс&lt;br&gt;&lt;br&gt;Изменение товара (change_product)&lt;br&gt;# Изменение свойств продукта за ресурс" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="-400" y="540" width="360" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-20" value="Продукт&lt;br&gt;- Свойства:&lt;br&gt;Ресурс-здоровье (product_profitability):&lt;br&gt;1. тратится на передвижение по полю&lt;br&gt;2. восполняется от взаимодействия с клиентом&lt;br&gt;*3. Должен ли наоборот тратиться от взаимодействия?&lt;br&gt;&lt;br&gt;Качество (quality)&lt;br&gt;# Числовая характеристика&lt;br&gt;Экологичность (eco-friendly)&lt;br&gt;# Числовая характеристика&lt;br&gt;Цена (price)&lt;br style=&quot;border-color: var(--border-color);&quot;&gt;# Числовая характеристика&lt;br&gt;&lt;br&gt;&lt;br&gt;- Методы:&lt;br&gt;Переход ()&lt;br&gt;# Переход по полю" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="170" y="540" width="330" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MXMyZpyQHj3ka36q19n_-21" value="Клиент&lt;br&gt;- Свойства:&lt;br&gt;Покупательская способность (buying_power):&lt;br&gt;1. Числовая характеристика&lt;br&gt;2. Позволяет оценить что и сколько может купить&lt;br&gt;&lt;br&gt;Предпочтения (preferences):&lt;br&gt;1. предпочтительные характеристики товара&lt;br&gt;2. от их удовлетворенности зависит прибыль от товара&lt;br&gt;&lt;br&gt;*Потребность (demand):&lt;br&gt;Сколько нужно клиенту для удовлетворения потребностей&lt;br&gt;&lt;br&gt;*Привыкание (addiction)&lt;br&gt;1. Растет при &quot;долгом&quot; потреблении товара&lt;br&gt;2. Влияет на выбор товара клиентом&lt;br&gt;&lt;br&gt;- Методы:&lt;br&gt;Покупка товара (purchase):&lt;br&gt;&lt;br&gt;Переход ()&lt;br&gt;# Переход по полю" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="670" y="520" width="350" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="48p1Cck4rXjfPbN5vCbU-1" value="Поведение:&lt;br&gt;- В обычном состоянии статичен (не передвигается)&lt;br&gt;- Потребляет понравившийся соседний товар&lt;br&gt;*- В случае если товар &quot;отлично&quot; удовлетворяет потребности клиента, тот привлекает других клиентов к товару в радиусе 1 клетки&lt;br&gt;- При удовлетворении своих потребностей исчезает с рынка&lt;br&gt;&lt;br&gt;Каким правилам подчиняется:&lt;br&gt;Условие потребления товара:&lt;br&gt;1. Товар находится на соседней клетке&lt;br&gt;2.1 Единственный соседний товар&lt;br&gt;2.2 Если товаров больше 1-го, то выбирается товар с характеристиками наиболее близкими к личным предпочтениям клиента&lt;br&gt;&lt;br&gt;*Условие активации клиента:&lt;br&gt;1. Соседний клиент &quot;удовлетворил&quot; все свои предпочтения (качество, экологичность, цена) - то есть функция передает координаты товара, всем клиентам вокруг и те каждую движутся в том направлении каждую итерацию&lt;br&gt;1.1 Если за время движения к месту предполагаемого нахождения искомого товара не будет найден, то клиент останавливается&lt;br&gt;*1.2 Клиент передвигается ближе к компании&lt;br&gt;&lt;br&gt;**. Должен ли за движение клиент тратить свой ресурс-здоровье" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="990" y="790" width="440" height="330" as="geometry" />
+        </mxCell>
+        <mxCell id="48p1Cck4rXjfPbN5vCbU-2" value="Поведение:&lt;br&gt;- Передвигается по полю, пока не найдется клиент и он его не купит, тогда товар останавливается, пока клиент его потребляет, иначе продолжает движение&lt;br&gt;- Пока движется тратится ресурс-здоровье&lt;br&gt;&lt;br&gt;Каким правилам подчиняется:&lt;br&gt;1. Если товар не был употреблен по итогу итерации, переходит на новую клетку&lt;br&gt;2. Если товар употреблен, то он остается на одном месте&lt;br&gt;*2.1 Товар переходит на соседние клетки с клиентом-потребителем, в поисках дополнительных клиентов&amp;nbsp;&lt;br&gt;&lt;br&gt;Движение:&lt;br&gt;1. Выбирается случайная клетка, но не клетка на которой был товар на прошлой итерации&lt;br&gt;или&lt;br&gt;2. Направление задается клеткой в которой будет расположен товар компанией" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="500" y="827" width="440" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="48p1Cck4rXjfPbN5vCbU-3" value="Поведение:&lt;br&gt;- Размещается на клетке, не занимая ее (скрыт)&lt;br&gt;- Имеет радиус покрытия в 1 клетку&lt;br&gt;- В радиусе покрытия создает товары за ресурс-здоровье&lt;br&gt;-&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;br&gt;Каким правилам подчиняется:&lt;br&gt;Правила порождения товаров:&lt;br&gt;1. Есть ресурс-здоровье&lt;br&gt;2. Создание нового товара не приведет к исчезновению компании на следующей итерации&lt;br&gt;3. Порождает товар в зоне доступа компании (1 клетка вокруг)&lt;br&gt;4. Если клетки свободны&lt;br&gt;5. Если в зоне доступа есть клиент, то создается товар на клетке по соседству с ним&lt;br&gt;*6. Отправка товаров по наиболее прибыльным направлениям на поле (позже)&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=top;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="-40" y="790" width="440" height="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
